@@ -18,8 +18,8 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'middleman-core', ['>= 3.1']
   gem.add_dependency 'middleman-cli'
-  gem.add_dependency 'image_optim', '~> 0.25.0'
-  gem.add_dependency 'image_optim_pack', '~> 0.2.1'
+  gem.add_dependency 'image_optim', '~> 0.26.3'
+  gem.add_dependency 'image_optim_pack', '~> 0.5.2.20190428'
 
   gem.add_development_dependency 'appraisal'
   gem.add_development_dependency 'aruba'
@@ -31,4 +31,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rubocop'
   gem.add_development_dependency 'capybara'
   gem.add_development_dependency 'simplecov'
+  gem.add_development_dependency 'json'
 end
